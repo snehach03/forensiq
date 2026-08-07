@@ -1,0 +1,28 @@
+[project]
+name = "forensiq"
+version = "0.1.0"
+description = "AI-powered financial forensics platform analyzing SEC filings"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "sqlalchemy>=2.0",
+    "pymysql>=1.1",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "responses>=0.25",
+    "black>=24.0",
+    "ruff>=0.3",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
