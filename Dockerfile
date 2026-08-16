@@ -21,4 +21,4 @@ EXPOSE 8501
 # --server.address=0.0.0.0 zaroori hai (localhost nahi) - warna
 # container ke bahar se (host machine se) dashboard access nahi hoga,
 # sirf container ke andar se hi dikhega.
-CMD ["streamlit", "run", "dashboard/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+CMD streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=${PORT:-8501}
