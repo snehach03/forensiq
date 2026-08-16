@@ -1,0 +1,434 @@
+[
+  {
+    "company_id": 1,
+    "fiscal_year": 2016,
+    "y_true": 0,
+    "y_pred_proba": 0.5863
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.0746
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.1653
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.2464
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.1502
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.2941
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.0009
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.0066
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.0035
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.0001
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2016,
+    "y_true": 0,
+    "y_pred_proba": 0.4884
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.0295
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.1751
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.1829
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.1832
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.0693
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.0007
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.0048
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.0061
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.0006
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2026,
+    "y_true": 0,
+    "y_pred_proba": 0.0025
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2016,
+    "y_true": 0,
+    "y_pred_proba": 0.9118
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.0007
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.1614
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.4485
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.3917
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.0059
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.0001
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.001
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.0014
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.0009
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2016,
+    "y_true": 0,
+    "y_pred_proba": 0.8645
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.1455
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.0577
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.6124
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.3068
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.328
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.6504
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.3457
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.6586
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.1239
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2016,
+    "y_true": 1,
+    "y_pred_proba": 0.1469
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.7403
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.6756
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.6474
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.0565
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.0221
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.8752
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.1206
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.008
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.4338
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2026,
+    "y_true": 0,
+    "y_pred_proba": 0.1433
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2016,
+    "y_true": 1,
+    "y_pred_proba": 0.027
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2017,
+    "y_true": 1,
+    "y_pred_proba": 0.8531
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2018,
+    "y_true": 1,
+    "y_pred_proba": 0.4272
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.1404
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.1088
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.3893
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.0021
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.0035
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.0466
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.2404
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2016,
+    "y_true": 1,
+    "y_pred_proba": 0.8499
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2017,
+    "y_true": 0,
+    "y_pred_proba": 0.6433
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2018,
+    "y_true": 0,
+    "y_pred_proba": 0.5398
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2019,
+    "y_true": 0,
+    "y_pred_proba": 0.2731
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2020,
+    "y_true": 0,
+    "y_pred_proba": 0.8943
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2021,
+    "y_true": 0,
+    "y_pred_proba": 0.6944
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2022,
+    "y_true": 0,
+    "y_pred_proba": 0.8769
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2023,
+    "y_true": 0,
+    "y_pred_proba": 0.0737
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2024,
+    "y_true": 0,
+    "y_pred_proba": 0.4893
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2025,
+    "y_true": 0,
+    "y_pred_proba": 0.0012
+  }
+]

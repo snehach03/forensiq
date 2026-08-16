@@ -1,0 +1,37 @@
+{
+  "model_type": "LogisticRegression",
+  "decision_threshold": 0.4,
+  "selection_metric": "F2-score (beta=2, prioritizes Recall over Precision)",
+  "feature_columns": [
+    "current_ratio",
+    "quick_ratio",
+    "debt_to_equity",
+    "gross_margin",
+    "operating_margin",
+    "revenue_growth",
+    "receivables_growth",
+    "inventory_growth",
+    "altman_z_score",
+    "piotroski_f_score",
+    "receivables_outpacing_revenue",
+    "inventory_outpacing_revenue",
+    "rule_cashflow_below_income",
+    "rule_margin_deteriorating",
+    "rule_leverage_spike",
+    "rule_altman_distress",
+    "rule_beneish_manipulation_flag",
+    "rule_piotroski_weak",
+    "red_flag_count"
+  ],
+  "n_training_rows": 72,
+  "n_positive_labels": 5,
+  "trained_on": "2026-08-13T12:57:50.011282",
+  "evaluation_summary": {
+    "method": "LOOCV (n=72)",
+    "recall": 0.6,
+    "precision": 0.136,
+    "f2_score": 0.357,
+    "roc_auc": 0.672
+  },
+  "notes": "Small-sample proof-of-concept model (5 positive labels). Metrics are realistic for this dataset size, not production-grade. Threshold=0.40 chosen for fraud-forensics domain where False Negatives (missed fraud) are far costlier than False Positives."
+}

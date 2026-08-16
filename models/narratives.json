@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-15T17:51:31.526707",
+  "total_companies": 7,
+  "successful": 7,
+  "failed": 0,
+  "narratives": [
+    {
+      "company_id": 1,
+      "company_name": "Apple Inc.",
+      "fiscal_year": 2025,
+      "narrative": "Apple Inc. shows a fraud‑risk probability of 0.000 and is not flagged as risky at the 0.40 threshold.  However, two deterministic rule violations are present: receivables are growing faster than revenue, and operating cash flow is below reported net income.  These conditions signal potential accounting or liquidity concerns that warrant monitoring.\n\nThe SHAP analysis highlights three features that increase risk: a quick ratio contribution of +0.2433, a rule_leverage_spike of +0.1729, and a rule_piotroski_weak of +0.1343.  Conversely, three strong risk reducers are identified: a piotroski_f_score contribution of –4.9837, a red_flag_count of –0.8258, and a rule_cashflow_below_income of –0.4574.  The large negative impact of the piotroski_f_score and the other reducers offsets the positive contributions, resulting in the overall zero risk probability.\n\nIn summary, while the model’s risk score is low, the presence of rule violations and the mix of risk‑pushing and risk‑reducing drivers suggest that the company’s financial statements should be reviewed for the identified anomalies.  The strong piotroski_f_score and cash‑flow adjustment reduce overall concern, but the receivables‑to‑revenue growth and cash‑flow‑below‑income patterns remain areas for further scrutiny.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 2,
+      "company_name": "MICROSOFT CORP",
+      "fiscal_year": 2026,
+      "narrative": "The model assigns Microsoft Corp a fraud‑risk probability of 0.002, well below the 0.40 threshold, and the entity is not flagged as risky for the 2026 fiscal year.  Despite this low probability, two deterministic rule violations were triggered: inventory is growing faster than revenue, and gross margin has declined year‑over‑year.  These patterns are consistent with potential financial reporting concerns.\n\nThe SHAP analysis highlights the main drivers of the risk score.  The largest positive contributors are rule_leverage_spike (+0.1729), rule_piotroski_weak (+0.1343), and inventory_growth (+0.0397).  On the other hand, the score is pulled down by a strong negative contribution from piotroski_f_score (‑2.4298), a moderate reduction from red_flag_count (‑0.8258), and a smaller effect from rule_altman_distress (‑0.1870).  The net effect of these drivers keeps the overall risk probability low.\n\nIn summary, while the overall fraud‑risk probability remains very low and the company is not flagged, the presence of inventory‑growth and margin‑decline rule violations, coupled with the identified SHAP risk drivers, suggests that monitoring should continue.  The strong negative influence of piotroski_f_score and other risk reducers mitigates the impact of the positive drivers, keeping the risk assessment in the low‑risk range.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 3,
+      "company_name": "COSTCO WHOLESALE CORP /NEW",
+      "fiscal_year": 2025,
+      "narrative": "**Risk Summary – Costco Wholesale Corp (FY 2025)**  \n\nThe model assigns a very low fraud‑risk probability of 0.001, well below the 0.40 threshold, and no deterministic rule violations were triggered. This indicates that, according to the current data set, the company does not exhibit any of the hard‑coded red flags used in the rule‑based component of the assessment.\n\nThe primary drivers that nudged the risk score upward are a higher red‑flag count (+1.0617), a relatively tight quick ratio (+0.5693), and a modest rule leverage spike (+0.1729). These features suggest some concentration of short‑term obligations and a higher frequency of internal alerts. Conversely, the risk score is substantially mitigated by strong accounting metrics: a high Piotroski F‑Score (-3.7067), a robust Altman Z‑Score (-2.6234), and a healthy current ratio (-0.2488). Together, these factors balance the modest risk signals, resulting in the overall low probability.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 4,
+      "company_name": "GENERAL ELECTRIC CO",
+      "fiscal_year": 2025,
+      "narrative": "The model assigns GE Co a fraud‑risk probability of 0.115, which is well below the 0.40 flagging threshold, so the company is not currently flagged as risky. However, the probability is not negligible and is driven by a combination of rule violations and feature‑level risk signals.\n\nTwo deterministic rule violations are present: operating cash flow is below reported net income, and the Piotroski F‑Score indicates weak financial health. These violations contribute to the overall risk profile. SHAP analysis shows that the Piotroski F‑Score (+1.4011) and quick ratio (+0.3703) are the strongest positive drivers, with a smaller contribution from a leverage spike (+0.1729). On the other hand, the red flag count (‑0.8258), a rule that cash flow is below income (‑0.4574), and the current ratio (‑0.2442) act as risk reducers.\n\nIn summary, while the probability remains below the alert threshold, the presence of multiple rule violations and several positive SHAP drivers suggests a moderate risk signal that warrants monitoring, especially given the strong influence of the Piotroski F‑Score and quick ratio on the risk score.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 5,
+      "company_name": "Under Armour, Inc.",
+      "fiscal_year": 2026,
+      "narrative": "Under Armour, Inc. shows a fraud‑risk probability of 0.122, which is below the 0.40 threshold and therefore not flagged as risky by the model. However, three deterministic rule violations are present: the gross margin declined year‑over‑year, the debt‑to‑equity ratio spiked more than 25 % YoY, and the Piotroski F‑Score indicates weak financial health. These violations contribute to a higher perceived risk profile.\n\nSHAP analysis highlights that the Piotroski F‑Score (+2.6781), Altman Z‑Score (+0.5316), and current ratio (+0.1308) are the primary drivers pushing the risk score upward. Conversely, the red flag count (-1.7695), rule leverage spike (-0.8644), and rule Altman distress (-0.1870) act as risk reducers, partially offsetting the upward pressure. The net effect results in the current probability of 0.122.\n\nOverall, the company exhibits moderate risk signals, with significant financial health concerns balanced by several mitigating factors. Continued monitoring of margin trends, leverage dynamics, and the Piotroski score is advisable to detect any further deterioration.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 7,
+      "company_name": "Kraft Heinz Co",
+      "fiscal_year": 2025,
+      "narrative": "Kraft Heinz Co. shows a fraud‑risk probability of 0.203, below the 0.40 threshold, so the model does not flag the company as risky. However, two deterministic rule violations are present: the gross margin has declined year‑over‑year, and the Altman Z‑Score indicates financial distress. These violations contribute to the overall risk assessment.\n\nThe SHAP analysis highlights the Altman Z‑Score (+1.4411) and the rule‑based Altman distress indicator (+1.0372) as the largest positive drivers of risk, with the quick ratio (+0.3120) adding a smaller but still notable signal. On the other hand, the piotroski F‑Score (-1.1528), a lower red‑flag count (-0.8258), and a current ratio of -0.1716 serve as risk reducers, partially offsetting the positive contributions.\n\nOverall, while the model’s probability remains below the alert threshold, the combination of rule violations and strong positive SHAP drivers suggests a moderate risk signal that warrants monitoring, especially given the financial distress indicated by the Altman Z‑Score.",
+      "validation_warning": null
+    },
+    {
+      "company_id": 8,
+      "company_name": "Bausch Health Companies Inc.",
+      "fiscal_year": 2025,
+      "narrative": "**Risk Summary – Bausch Health Companies Inc. (FY 2025)**  \n\nThe model assigns a fraud‑risk probability of 0.001, well below the 0.40 threshold, and the company is not flagged as risky. However, two deterministic rule violations are present: the debt‑to‑equity ratio increased by more than 25 % year‑over‑year, and the Altman Z‑Score indicates financial distress. These violations contribute to the risk score through the SHAP drivers *altman_z_score* (+1.6376) and *rule_altman_distress* (+1.0372), with a smaller additional lift from *rule_piotroski_weak* (+0.1343).\n\nConversely, the risk score is mitigated by strong signals from the Piotroski F‑Score, which reduces risk by –4.9837, and by the *rule_leverage_spike* (-0.8644) and *red_flag_count* (-0.8258) features. Overall, the low probability and the presence of significant risk‑reducing factors suggest that, while certain financial stress indicators are flagged, the current risk assessment remains low.",
+      "validation_warning": null
+    }
+  ],
+  "failures": []
+}

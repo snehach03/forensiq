@@ -1,0 +1,30 @@
+@"
+# Virtual environment - host-machine-specific, container installs its
+# own dependencies fresh via pyproject.toml. Copying this would be
+# wasted space (and could even conflict with the container's own venv).
+.venv/
+
+# Python bytecode caches - regenerated automatically, no reason to ship them.
+__pycache__/
+*.pyc
+*.pyo
+
+# Git metadata - not needed inside the running container.
+.git/
+.gitignore
+
+# Test artifacts - not needed at runtime (tests run in CI/local dev,
+# not inside the deployed container).
+.pytest_cache/
+tests/
+
+# Secrets - CRITICAL: .env has the GROQ_API_KEY. It must NEVER be baked
+# into the image (images can end up shared/pushed to a registry, and
+# anyone with the image would then have your API key). Pass secrets at
+# ``docker run`` time instead (see README for the -e flag example).
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+"@ | Out-File -FilePath ".dockerignore" -Encoding utf8 -NoNewline

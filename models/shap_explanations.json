@@ -1,0 +1,2450 @@
+[
+  {
+    "company_id": 1,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.566,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": 0.118
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.2435
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.064,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": 0.3173
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -1.7695
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.154,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.0636
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": 0.0269
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1909
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.238,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": 0.118
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.4266
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.141,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.0863
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": 0.0269
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.2429
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.259,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2228
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.1981
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2553
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": 0.118
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.349
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.007,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.154
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2788
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.2482
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.003,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2775
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.3568
+      }
+    ]
+  },
+  {
+    "company_id": 1,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.0,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2433
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -4.9837
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": -0.4574
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.446,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.6038
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -1.275
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.029,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.6843
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.0624
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -1.409
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.154,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.9581
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -1.8384
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.0121
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.17,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.7176
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -1.4671
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.171,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.7092
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -1.4571
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.066,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.4274
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.999
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "current_ratio",
+        "contribution": 0.2364
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.681
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.005,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.2264
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.6809
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.006,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.1803
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.04
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.2656
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "fiscal_year": 2026,
+    "predicted_risk_probability": 0.002,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      },
+      {
+        "feature": "inventory_growth",
+        "contribution": 0.0397
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.897,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.7204
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2858
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.6928
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": 0.118
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.3284
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.15,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.6548
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2592
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.405,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5962
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2641
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.0121
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.361,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.4723
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1857
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.0121
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.006,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5972
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.1114
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2696
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.0,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.6568
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -4.9837
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.4417
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2569
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5417
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.4962
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2268
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.6801
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.5908
+      },
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2932
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5693
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -2.6234
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2488
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.849,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.1252
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1576
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.132,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.1252
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1576
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.056,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.1501
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.1252
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1576
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.589,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.1506
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.0723
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.286,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.2099
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.0121
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.319,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.1252
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.0918
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.64,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2447
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1655
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.335,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2519
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1576
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.635,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2937
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.21
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.115,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.3703
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": -0.4574
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2442
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.715,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.9353
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.4541
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.72,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.5079
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.0207
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.664,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.3568
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.1085
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.636,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.3112
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.1884
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.055,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.557
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.0576
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.5781
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.022,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.57
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.6767
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.2571
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.854,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.493
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.4738
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.111,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 1.4011
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.4928
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": -0.4574
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.2209
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.008,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.6712
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.5657
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": -0.2035
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.392,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.4402
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": 0.196
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.1616
+      },
+      {
+        "feature": "revenue_growth",
+        "contribution": -0.0235
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "fiscal_year": 2026,
+    "predicted_risk_probability": 0.122,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": 0.5316
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": 0.1308
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -1.7695
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.691,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.241
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.0053
+      },
+      {
+        "feature": "inventory_growth",
+        "contribution": -0.004
+      },
+      {
+        "feature": "receivables_growth",
+        "contribution": -0.0007
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.872,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.4958
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.3114
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.667,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.7047
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.4543
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.128,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.4269
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2528
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.104,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": 1.0617
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.0495
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.361,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.113
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.418
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.276
+      },
+      {
+        "feature": "receivables_growth",
+        "contribution": -0.0132
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.002,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.0571
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.6483
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -2.7133
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.352
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.003,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": 0.9831
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5789
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -6.2606
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2797
+      },
+      {
+        "feature": "receivables_growth",
+        "contribution": -0.0087
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.045,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.0547
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.5236
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -3.7067
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2352
+      },
+      {
+        "feature": "revenue_growth",
+        "contribution": -0.0137
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.203,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.4411
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.312
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1716
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2016,
+    "predicted_risk_probability": 0.866,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.2157
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": -0.0215
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2017,
+    "predicted_risk_probability": 0.632,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2353
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1986
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": -0.187
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": -0.1502
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2018,
+    "predicted_risk_probability": 0.478,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.248
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.1876
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2078
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2019,
+    "predicted_risk_probability": 0.246,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.4801
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.1605
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.1964
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2020,
+    "predicted_risk_probability": 0.642,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 3.955
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": 0.8675
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2372
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2145
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2021,
+    "predicted_risk_probability": 0.059,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.8954
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.2132
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "debt_to_equity",
+        "contribution": -4.0198
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.2201
+      },
+      {
+        "feature": "inventory_growth",
+        "contribution": -0.012
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2022,
+    "predicted_risk_probability": 0.679,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": 2.6781
+      },
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.9158
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "red_flag_count",
+        "contribution": -1.7695
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": -0.5111
+      },
+      {
+        "feature": "rule_cashflow_below_income",
+        "contribution": -0.4574
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2023,
+    "predicted_risk_probability": 0.068,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.8343
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": 0.1729
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -2.4298
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": -0.3658
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2024,
+    "predicted_risk_probability": 0.435,
+    "flagged_as_risky": true,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.7947
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "quick_ratio",
+        "contribution": 0.4934
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -1.1528
+      },
+      {
+        "feature": "current_ratio",
+        "contribution": -0.3647
+      },
+      {
+        "feature": "debt_to_equity",
+        "contribution": -0.2799
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "fiscal_year": 2025,
+    "predicted_risk_probability": 0.001,
+    "flagged_as_risky": false,
+    "top_risk_drivers": [
+      {
+        "feature": "altman_z_score",
+        "contribution": 1.6376
+      },
+      {
+        "feature": "rule_altman_distress",
+        "contribution": 1.0372
+      },
+      {
+        "feature": "rule_piotroski_weak",
+        "contribution": 0.1343
+      }
+    ],
+    "top_risk_reducers": [
+      {
+        "feature": "piotroski_f_score",
+        "contribution": -4.9837
+      },
+      {
+        "feature": "rule_leverage_spike",
+        "contribution": -0.8644
+      },
+      {
+        "feature": "red_flag_count",
+        "contribution": -0.8258
+      }
+    ]
+  }
+]

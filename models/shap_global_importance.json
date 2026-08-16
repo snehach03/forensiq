@@ -1,0 +1,21 @@
+{
+  "piotroski_f_score":2.4184308379,
+  "red_flag_count":0.6357226538,
+  "altman_z_score":0.4786419422,
+  "quick_ratio":0.4211481581,
+  "rule_altman_distress":0.3169350216,
+  "rule_leverage_spike":0.2881275421,
+  "current_ratio":0.2845659258,
+  "debt_to_equity":0.1621348115,
+  "rule_piotroski_weak":0.1418131315,
+  "rule_cashflow_below_income":0.0508183948,
+  "rule_margin_deteriorating":0.027162354,
+  "gross_margin":0.0171838137,
+  "receivables_outpacing_revenue":0.0166628831,
+  "inventory_growth":0.0149208956,
+  "inventory_outpacing_revenue":0.0148443863,
+  "receivables_growth":0.007068139,
+  "revenue_growth":0.0049555107,
+  "operating_margin":0.0033490954,
+  "rule_beneish_manipulation_flag":0.0
+}
